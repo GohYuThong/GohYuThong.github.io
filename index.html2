@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dead Dimension</title>
+  <style>
+    body {
+      background-color: #f8f2e7;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #f8f2e7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      background-color: #4b384c;
+    }
+
+    main {
+      background-color: #c6a67f;
+      padding: 20px;
+      flex: 3;
+      margin-right: 20px;
+    }
+
+    aside {
+      flex: 1;
+    }
+
+    aside nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    aside nav ul li a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background-color: #d9a15f;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      border-radius: 20px;
+    }
+
+    aside nav ul li a:hover,
+    aside nav ul li a:focus {
+      background-color: #b77e3f;
+      outline: 2px solid #ffffff;
+      outline-offset: 2px;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    section {
+      background-color: #e5d4b6;
+      padding: 20px;
+      border: 2px solid #bfa77f;
+      font-size: 16px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #3c2e3a;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DEAD DIMENSION</h1>
+  </header>
+
+  <div class="container">
+    <main>
+      <section>
+        <h2>What is the Dead Dimension?</h2>
+        <p>This realm exists between Earth and the Afterlife. No one arrives here by accident. Every soul here was taken too soon, with questions left unanswered.</p>
+        <p>In the Dead Dimension, memories haunt you. Time loops strangely. But if you can uncover the truth behind your death—you might get a second chance at life.</p>
+        <p><strong>But be warned:</strong> not everyone wants the truth uncovered.</p>
+      </section>
+
+      <section>
+        <h2>Characters</h2>
+        <ul>
+          <li>Adreila Firkle</li>
+          <li>Elliot Vezrye</li>
+          <li>Marla Johnson</li>
+          <li>Macy Johnson</li>
+          <li>Hugh Siase</li>
+          <li>Gesias Harcy</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Journals</h2>
+        <p><strong>Elliot’s Journal and Notes:</strong></p>
+        <p>Elliot’s handwriting is neat but heavy—each word carved with thought and regret. His journal records the fragments of memory from the night of the accident, clues that might uncover what truly happened in the Dead Dimension.</p>
+      </section>
+    </main>
+
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="characters.html">CHARACTERS</a></li>
+          <li><a href="journals.html">JOURNALS</a></li>
+          <li><a href="map.html">MAP</a></li>
+          <li><a href="chapters.html">CHAPTERS</a></li>
+          <li><a href="rules.html">RULES OF DEAD DIMENSION</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dead Dimension. All rights reserved.</p>
+  </footer>
+</body>
+</html>
